@@ -4,6 +4,7 @@ import { Message } from "../App";
 import { send } from "../assets/icons";
 import { url } from "../url";
 
+
 type InputProps = {
   addMessage: (msg: Message) => void;
   toggleLoading: (value: boolean) => void;
